@@ -1,11 +1,11 @@
 import React, { useState, useCallback, useMemo, useEffect } from 'react';
-import { Appointment, ModalInfo, Client } from './types';
-import Header from './components/Header';
-import AppointmentForm from './components/AppointmentForm';
-import AppointmentList from './components/AppointmentList';
-import Modal from './components/Modal';
-import RevenueDashboard from './components/RevenueDashboard';
-import ClientList from './components/ClientList';
+import { Appointment, ModalInfo, Client } from './types.ts';
+import Header from './components/Header.tsx';
+import AppointmentForm from './components/AppointmentForm.tsx';
+import AppointmentList from './components/AppointmentList.tsx';
+import Modal from './components/Modal.tsx';
+import RevenueDashboard from './components/RevenueDashboard.tsx';
+import ClientList from './components/ClientList.tsx';
 
 const APP_STORAGE_KEY = 'spacoDelasAppointments';
 
